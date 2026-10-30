@@ -1,0 +1,19 @@
+// Online C compiler (editor)
+// Write and run C online using this editor.
+
+#include <stdio.h>
+
+int main() {
+int a;
+    
+     for( int i=0;i<=2;i++){
+     printf("enter the pin number:");
+     scanf("%d",&a);    
+        if(a==1234){
+      printf(" pin number is correct");
+      break;} 
+        else{
+        printf("incorrect pin number\n");}
+    }
+    return 0;
+}
